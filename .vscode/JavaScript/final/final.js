@@ -784,10 +784,10 @@ document.getElementById('closeFilter').addEventListener('click',()=>{
     getrestaurant(restaurants ) 
 })
 
-document.getElementById('third').addEventListener('click',()=>{
-    document.getElementById("form-conatainer").classList.add("hidden");
-    document.getElementById("swiggy").classList.remove("hide");
-    getrestaurant(restaurants ) 
-})
+// document.getElementById('third').addEventListener('click',()=>{
+//     document.getElementById("form-conatainer").classList.add("hidden");
+//     document.getElementById("swiggy").classList.remove("hide");
+//     getrestaurant(restaurants ) 
+// })
 
 
