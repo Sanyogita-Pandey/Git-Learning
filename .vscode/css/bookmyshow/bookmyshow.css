@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(244, 17, 17);
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 7px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+    background-color:rgb(254, 244, 231);
+    
+}
+.city >button{
+    background-color: 
+    rgb(227, 166, 166);
+}
+.search{
+    font-size: 0.01rem;
+    
+}
+.search >button{
+    background-color:rgb(226, 160, 160);
+    margin: 3px;
+}
+.searching{
+    border-radius: 7px;
+    
+}
+.city, .search{
+    padding: 10px;
+    border: none;
+   
+   
+    
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: bisque;
+}
+.shows >button{
+    background-color: bisque;
+    border-color: bisque;
+    border: none;
+    margin: 2.5px;
+    font-size: small;
+}
+.fav >button{
+    background-color: bisque;
+    border-color: bisque;
+    border: none;
+    margin: 2.5px;
+    font-size: small;
+}
+.image{
+    background-image: url(https://images.stockcake.com/public/9/7/2/972100a7-def8-4cb4-af8c-689bd6449765_large/cinematic-film-reels-stockcake.jpg);
+    padding: 0.6rem;
+    text-align: center;
+    
+}
+.image >h1{
+    font-size: 20px;
+    color: rgb(15, 216, 52);
+    
+}
+.image >button{
+    background-color: rgb(245, 7, 7);
+    color: azure;
+    font-size: 15px;
+   
+}
+.movies{
+    display: flex;
+    /* text-align: center; */
+    overflow-x: scroll;
+    scrollbar-color: white;
+}
+.card{
+    padding-top: 5px;
+    margin: 7px;
+    text-align: center;
+    background-color: rgb(225, 228, 227);
+}
+.movies :hover{
+    background-color: rgb(213, 232, 232);
+}
+.title{
+    text-align: center;
+    background-color: rgb(239, 213, 213);
+}
+.title >h1{
+    color: black;
+    font-size: 30px;
+}
+.bot >img{
+    max-width: 100%;
+    text-align: center;
+    padding-right: 30px;
+}
+
+@media(max-width: 400px){
+    .logo, .options,.movies{
+        flex-direction: column;
+        align-items: center;
+    }
+}

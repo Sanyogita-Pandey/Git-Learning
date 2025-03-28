@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+
+.fidaa{
+   font-size: 18px;
+   cursor: pointer;
+   display:inline-block;
+   border: 3px solid white;
+}
+.fidaa:hover{
+    background-color:rgb(241, 233, 233);
+    border: 3px solid rgb(221, 217, 217);
+}
+.search, .sign, .log, .brand, .second{
+    display:inline-block;
+}
+.brand{
+    font-style:italic ;
+  font-size: larger;
+  padding-left: 15px;
+  color:rgb(11, 7, 7);
+  background-color:rgb(155, 118, 118);
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-right: 23px;
+  margin-top: 5px;
+}
+.search{
+    margin-left: 20%;
+    position: relative;
+    bottom: 10px;
+}
+.sign{
+    margin-left: 20%;
+    position: relative;
+    bottom: 10px;
+}
+.log{
+    position: relative;
+    bottom: 10px;
+
+}
+*{
+    margin: 0;
+}
+main{
+    padding-top: 150px;
+}
+Header{
+    position:sticky;
+    background-color: antiquewhite;
+    
+    position: fixed;
+    width: 100%;
+}
+.img{
+    display: inline-block;
+    position:absolute;
+    top: 13px;
+    margin-left: 210px;
+  
+}
+
+    </style>
+</head>
+<body>
+   
+    <header>
+        <div class="first">
+            <div class="brand"><h1>New One</h1></div>
+            <div class="img"><img src="data:image/jpeg;base64,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" alt="seach icon" height="30px" ></div>
+            <div class="search">
+                <form >
+                    <input type="text" placeholder="Search for movies and songs ">
+                </form>
+            </div>
+            <div class="sign"><button>Sign in</button></div>
+            <div class="log"><button>Log in</button></div>
+        </div>
+
+       <div class="second"></div>
+            <a href="./first.html"><h2>Movies</h2></a>
+            <a href="#songs"><h2>Songs</h2></a>
+        </div>
+
+   
+</header>
+<main>
+    <h1>Romantic Movies</h1>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/JDnKYOMzcfM" frameborder="0" ></iframe><p >Fidaa Romantic Hindi Dubbed Full Movie </p></div> 
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/CiWH4Jo_DJc" frameborder="0"></iframe><p>Janhit Mein Jaari - Hindi Full Movie</p></div>       
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/htwtV6qsSVo" frameborder="0" ></iframe><p>Sanam Teri Kasam Hindi Romantic Movie </p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/-vGSa3rrF_0" frameborder="0"></iframe><p>Mr.Majnu South Romantic Comedy </p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/OzjNA8O4YZA" frameborder="0"></iframe><p>14 Phere - Hindi Full Movie </p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/fNKgMz1MyUI" frameborder="0"></iframe><p>Genius(2018) FULL Movie</p></div>
+<h1>Comedy movies</h1>
+<div class="fidaa"><iframe src="https://www.youtube.com/embed/iCtWBMzEGsU" frameborder="0"></iframe><p>HOUSEFULL (HD) FULL Movie</p></div>
+    <div class="fidaa"><iframe src="https://www.youtube.com/embed/13941_qrn7s" frameborder="0"></iframe><p>STREE FULL HINDI MOVIE</p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/NQTnXlwV7Lw" frameborder="0"></iframe><p>Dream girl 2 2024 </p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/SaEV_DMPogk" frameborder="0"></iframe><p>Chup Chup Ke (2006)</p></div>
+            <div class="fidaa"><iframe src="https://www.youtube.com/embed/TIQ5hrfermg" frameborder="0"></iframe><p>Hera Pheri (2000) Full Comedy Movie </p></div>
+                <div class="fidaa"> <iframe src="https://www.youtube.com/embed/_9L7dS8lzWY" frameborder="0"></iframe><p>Phir Hera Pheri</p></div>
+<h1>Action movies</h1>
+<div class="fidaa"> <iframe src="https://www.youtube.com/embed/-4l2jLR7Y8Q" frameborder="0"></iframe><p>Baahubali- The Beginning</p></div>
+    <div class="fidaa"> <iframe src="https://www.youtube.com/embed/gKizDojsdvs" frameborder="0"></iframe><p>KGF Full Movie</p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/iFbIfok74RY" frameborder="0"></iframe><p>Kalki Full Movie</p></div>
+            <div class="fidaa"><iframe src="https://www.youtube.com/embed/MT0hGJL6m7k" frameborder="0"></iframe><p>URI Full Movie</p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/BzeS2uaSj2k" frameborder="0"></iframe><p>Krrish 3 Full Movie</p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/yHMg6exo2d8" frameborder="0"></iframe><p>घोस्ट Ghost (2019)</p></div>
+    
+<h1>HORROR MOVIES</h1>
+<div class="fidaa"><iframe src="https://www.youtube.com/embed/rGsXo6cjKyE" frameborder="0"></iframe><p>House of Dead Hindi Horror Movie</p></div>
+    <div class="fidaa"><iframe src="https://www.youtube.com/embed/k7tLllmRVu4" frameborder="0"></iframe><p>Guardian Full Hindi Horror Movie</p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/RmuPqTlPn7s" frameborder="0"></iframe><p>Mantra-2 FUll Hindi Horror Movie </p></div>
+            <div class="fidaa"><iframe src="https://www.youtube.com/embed/Kf7SxLAPZ3c" frameborder="0"></iframe><p>Pari FUll Hindi Horror Movie</p></div>
+                <div class="fidaa"><iframe src="https://www.youtube.com/embed/atnW4D6pc-w" frameborder="0"></iframe><p>Conjuring the Beyond Horror Movie</p></div>
+                    <div class="fidaa"> <iframe src="https://www.youtube.com/embed/XimvdthKNas" frameborder="0"></iframe><p>Trapped in Terror Horro Movie</p></div>
+
+
+     <h1 id="songs">Songs</h1>
+    <h3 >Sad Songs</h3>
+   <div class="fidaa"> <iframe src="https://www.youtube.com/embed/gCQg1NoVZ9U" frameborder="0"></iframe><p>Maine tera naam dil rkh diya</p></div>
+        <div class="fidaa"> <iframe src="https://www.youtube.com/embed/oRZ0cfZ9SeU" frameborder="0"></iframe><p> Ek Raat </p></div>
+        <div class="fidaa"> <iframe src="https://www.youtube.com/embed/JIb5iO0mjXs" frameborder="0"></iframe><p> Dil Kya Kare</p></div>
+        <div class="fidaa"> <iframe src="https://www.youtube.com/embed/lXFayC4K2_0" frameborder="0"></iframe><p>Ankhiyaan</p></div>
+        <div class="fidaa"> <iframe src="https://www.youtube.com/embed/fco6adEaxKE" frameborder="0"></iframe><p>Tum jo Aaye</p></div>
+        <div class="fidaa"> <iframe src="https://www.youtube.com/embed/BiVyN2ftrrs" frameborder="0"></iframe><p>Mera Intkam Dekhegi</p></div>
+    <h3>Love songs</h3>
+    <div class="fidaa"><iframe src="https://www.youtube.com/embed/XH7UEm8tzPE" frameborder="0"></iframe><p>Tu Hai Woh </p></div>
+    <div class="fidaa"><iframe src="https://www.youtube.com/embed/zing4uQ3dR4" frameborder="0"></iframe><p>Ik Mulaqaat - Dream Girl </p></div>
+    <div class="fidaa"> <iframe src="https://www.youtube.com/embed/HexFqifusOk" frameborder="0"></iframe><p>Jogi-Shaadi Mein Zaroor Aana</p></div>
+    <div class="fidaa"><iframe src="https://www.youtube.com/embed/6d5SS0gS5bU" frameborder="0"></iframe><p>Tainu Khabar Nahi-Munjya </p></div>
+    <div class="fidaa">  <iframe src="https://www.youtube.com/embed/USccSZnS8MQ" frameborder="0"></iframe><p>Thoda Thoda Pyaar</p></div>
+    <div class="fidaa"> <iframe src="https://www.youtube.com/embed/m9KZ_nZhZ30" frameborder="0"></iframe><p>Pyaar Ho Gaya</p></div>
+
+<h3>Bhajans</h3>
+
+<div class="fidaa"><iframe src="https://www.youtube.com/embed/NwrO6OcS42I" frameborder="0"></iframe><p>Braj Mein Basaalo Mujhe</p></div>
+<div class="fidaa"><iframe src="https://www.youtube.com/embed/Hnt3klfIGC4" frameborder="0"></iframe><p>Tere Charno Se Lipat Jaate Hain</p></div>
+<div class="fidaa"><iframe src="https://www.youtube.com/embed/X953XhPDUTc" frameborder="0"></iframe><p>Radha Rani</p></div>
+<div class="fidaa"><iframe src="https://www.youtube.com/embed/m29Amcpp-T8" frameborder="0"></iframe><p>Mohan Mere Pyaare</p></div>
+<div class="fidaa"><iframe src="https://www.youtube.com/embed/WTjZxav7naU" frameborder="0"></iframe><p>Soja Zara </p></div>
+<div class="fidaa"><iframe src="https://www.youtube.com/embed/Uy5C5YLwVnU" frameborder="0"></iframe><p>Prabhu Mere Ghar Ko Pyaar Karo </p></div>
+<h3>Punjabi songs </h3>
+
+<div class="fidaa"><iframe src="https://www.youtube.com/embed/uvsIx_IIqQA" frameborder="0"></iframe><p>Hello Ji!</p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/FjQk-2jHevs" frameborder="0"></iframe><p>Pallo Latke</p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/_K2CNsQM750" frameborder="0"></iframe><p>EXPENSIVE  </p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/sRzpQpT-UKA" frameborder="0"></iframe><p>MOR</p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/fbzVa27nOp4" frameborder="0"></iframe><p>Mehndi</p></div>
+        <div class="fidaa"><iframe src="https://www.youtube.com/embed/TmA06Z8R0oM" frameborder="0"></iframe><p>Mehfil</p></div>
+   
+</main>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+
+.img{
+   
+    height: 250px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+    border-style:groove;
+    border-color: blueviolet;
+   
+}
+.img1{
+    height: 250px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+}
+
+

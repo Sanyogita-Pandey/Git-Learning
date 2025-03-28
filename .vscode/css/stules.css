@@ -1,0 +1,16 @@
+
+*{
+    margin: 0;
+}
+
+.circle{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin: auto;
+    margin-top: 30vh;
+    /* margin-left: 50vw;
+    margin-bottom: 50vh;
+    margin-right: 50vw; */
+}

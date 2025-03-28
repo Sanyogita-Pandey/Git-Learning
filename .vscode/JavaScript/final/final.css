@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7efef;
+}
+
+/* Header section */
+#head {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+button:hover {
+    background-color: #112fa5;
+    box-shadow: 0px 0px 6px 5px rgb(19, 16, 16);
+}
+
+/* Restaurant Cards Container */
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Individual Restaurant Card */
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px 8px rgba(11, 11, 11, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Card Image */
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Card Content */
+.card-content {
+    padding: 11px;
+    padding-bottom: 300px;
+}
+
+/* Restaurant Name and Rating */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-header h3 {
+    margin: 0;
+    display: flex;
+    font-size: 308px;
+    font-weight: bold;
+}
+
+.rating {
+    background-color: #f4b400;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Food Type and Price */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Location and Distance */
+.card-location {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+#filterPopup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.filterOption {
+    margin: 10px 0;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #216feb;
+}
+
+.hidden {
+    display: none;
+}
+.form-conatainer{
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    height: 290px;
+    width: 400px;
+    padding-left:20px ;
+    box-shadow: 0px 0px 10px 14px rgb(241, 247, 247);
+}
+.form-conatainer:hover{
+    border: 10px solid rgb(244, 243, 191);
+}
+#first,#second{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px;
+    padding-right: 200px;
+   
+
+}
+#submit, #log_out{
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    margin: 15px;
+    font-size: 15px;
+    font-style:oblique;
+    box-shadow: 0px 0px 12px 4px rgb(16, 16, 16);
+}
+.hide{
+    display: none;
+}

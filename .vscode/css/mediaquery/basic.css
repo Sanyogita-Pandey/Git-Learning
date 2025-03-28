@@ -1,0 +1,28 @@
+.container{
+    /* height: 200px;
+    width: 150px; */
+    background-color: blue;
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    color: red;
+    border-radius: 2%;
+    border-style: groove;
+    border-color: black;
+    background-color: aqua;
+}
+@media(max-width:400px){
+    .container{
+        flex-direction: column;
+    }
+}
+@media (max-width: 400px){
+    .box{
+        background-color: black;
+        height: 100px;
+        width: 150px;
+    }
+}

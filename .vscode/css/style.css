@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+
+.first,.second,.third{
+ display: inline-block; 
+   height: 10vh;
+   width: 33%;
+   margin-left: 20vw;
+   
+
+}
+.first{
+    background-color: orangered;
+}
+.second{
+    background-color: azure;
+}
+.third{
+    background-color: green;
+}

@@ -1,0 +1,44 @@
+.container{
+    background-color: aqua;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* flex-direction: row-reverse; */
+    align-items:end;
+     flex-wrap:wrap; 
+    flex-direction: column;
+    /* align-content:; */
+    justify-content:center;
+    /* flex-basis overshadow the height width you give */
+    /* flex-shrink se shrik ka ratio bdhta h */
+    /* justify content works around main axis */
+    /* align items works ALONG cross axis */
+/* base line helps to make the elements in the same line */
+/* to make any dic to center use align-item center and justify content center */
+}
+.box{
+     height: 100px; 
+    width: 200px;
+    margin: 2px;
+    border-style:groove;
+    border-color: rgb(181, 4, 60);
+}
+.box1{
+    background-color: blue;
+    flex-grow: 1;
+    
+   
+}
+.box2{
+    background-color: brown;
+     align-self:center; 
+    /* flex-grow: 2; */
+     flex: 2 2 200px  /* flex: [flex grow][flex shrink][flex basis] */
+}
+.box3{
+    background-color: black;
+    
+}
+.box4{
+    background-color: blueviolet;
+}

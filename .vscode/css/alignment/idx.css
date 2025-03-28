@@ -1,0 +1,21 @@
+p{
+    background-color: aqua;
+    /* text-align: justify; /*makes same ending of all lines */
+    /* text-align-last:center ; makes last line at centre */ 
+    /* text-align-last: justify; tries to cover line fully  */
+    text-indent: 50px;
+    line-height: 20px;
+    /* white-space: 20px; */
+   
+}
+h1{
+    direction: rtl; 
+    /* makes heading at the right ride */
+    /* unicode-bidi: bidi-override; reverse the sentence*/
+    /* text-decoration-line:line-through ; */
+    text-decoration-line: overline;
+    text-decoration-line: underline overline line-through;
+    text-decoration-style:dashed ;
+    /*  text-transform: lowercase;*/
+   
+} 

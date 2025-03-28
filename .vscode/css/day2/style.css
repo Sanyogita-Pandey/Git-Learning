@@ -1,0 +1,21 @@
+.box{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.container{
+    background-color: rgb(36, 138, 138);
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: aqua;
+    position: absolute;
+    z-index: -2;
+    bottom: 600px;
+}
+.box3{
+    background-color: blueviolet;
+}

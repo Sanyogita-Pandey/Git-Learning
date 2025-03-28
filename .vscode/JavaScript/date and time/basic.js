@@ -1,0 +1,12 @@
+const d = new Date()
+console.log(d)
+console.log(d.toDateString())
+console.log(d.toString())
+console.log(d.toISOString())
+
+console.log(d.getDate())
+console.log(d.getDay())
+console.log(d.getTime())
+console.log(d.getMonth())
+const now = Date.now()
+console.log(now)

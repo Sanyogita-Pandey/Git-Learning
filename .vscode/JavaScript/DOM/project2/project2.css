@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+    background-color: rgb(247, 240, 231);
+    height: 200px;
+    width: 500px;
+    box-shadow: 0px 0px 5px 13px rgb(255, 255, 252);
+
+
+}
+.container:hover{
+    border: 9px solid rgb(247, 221, 242);
+    
+}
+.container>h1{
+    color: black;
+    font-style: italic;
+    align-items: center;
+}
+.quote-box{
+    height: 80px;
+    font-style: oblique;
+    font-size: larger;
+
+}
+button{
+    background-color: blue;
+    color: wheat;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgb(35, 35, 34);
+}
