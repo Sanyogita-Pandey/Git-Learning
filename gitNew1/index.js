@@ -8,3 +8,7 @@ const foorter= "footer added in our master"
 console.log(footer)
 
 console.log("Latest changes")
+
+// fixing the bug
+
+console.log("Bug fic")
