@@ -6,3 +6,5 @@ console.log(login)
 
 const foorter= "footer added in our master"
 console.log(footer)
+
+console.log("Latest changes")
